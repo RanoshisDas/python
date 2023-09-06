@@ -1,3 +1,4 @@
+#find that the char is vowel or consonant
 c=""
 c=input('Enter One character:')
 if len(c)==1:
