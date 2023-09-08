@@ -1,9 +1,11 @@
-#Write a program that prompts the user to input a number and prints its mulitiplication table.
-n=int(input('Enter a positive number:'))
-m=0
-if n>0:
-    for i in range(1,11):
-        m=n*i
-        print(i,'*',n,'=',m)
+a=int(input('Enter 1st number: '))
+b=int(input('Enter 2nd number: '))
+c=int(input('Enter 3rd number: '))
+if a==b and b==c:
+    print('You enter same numbers.')
+elif a<c and b<c:
+    print(c,'is the largest.')
+elif b<a and c<a:
+    print(a,'is the largest.')
 else:
-    print('Enter positive value.')
+    print(b,'is the ;argest.')

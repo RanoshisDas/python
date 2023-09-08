@@ -1,11 +1,5 @@
-#Write a program that prompts the user to input a number and prints its factorial. 
-#The factorial of an integer n is defined as n! = 1 x 2 x 3 x ... x n; 
-#if n > 0 = 1; if n = 0 For instance,6! can be calculated as 1 x 2 x 3 x 4 x 5 x 6
-n=int(input('Enter a positive number:'))
-s=1
-if n>0:
-    for i in range(1,n+1):
-        s=s*i
-    print('The factorial is= ',s)
+y=int(input('Enter the year: '))
+if y%4==0 and y%100!=0 or y%400==0:
+    print(y,'is leap yaer.')
 else:
-    print('Enter positive value.')
+    print(y,'is not leap year.')
