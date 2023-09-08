@@ -1,3 +1,4 @@
+#check a number is odd or even.
 n=int(input('Enter a number: '))
 if n==0:
     print('you entered 0')
