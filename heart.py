@@ -55,10 +55,8 @@ def txt():
 
 	# Write the specified text in
 	# specified font style and size
-	pen.write("I love you Pichci", font=(
+	pen.write("I love you ", font=(
 	"Verdana", 12, "bold"))
-
-
 # Draw a heart
 heart()
 
